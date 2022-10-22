@@ -7,11 +7,13 @@ windows平台下，通过Cython编译C++程序为python模块，支持python调�
 * 支持CMake全程编译。支持windows平台下visual studio 2019编译，linux下应当也可使用
 * 提供C++类调用（含属性set、get，std::vector接口）、函数回调两个样例
 * 提供CTest测试样例（使用unittest包）
+
 __注__: [第三方cmake module]<https://github.com/thewtex/cython-cmake-example>编译出的pyd不可用。只能采用`python setup.py build_ext`方式编译
 
 ## 使用
 
 准备工作：安装visual studio 2019以上、安装python3.7以上
+
 __注__: visual studio 2019中含了cmake工具，所以无需单独安装。但注意下cmake版本，若小于v3.20，需更新下visual studio 2019的升级包。（v3.15以上其实也没关系）
 
 * shell下手工执行
