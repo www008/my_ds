@@ -31,7 +31,7 @@ __注__: visual studio 2019中含了cmake工具，所以无需单独安装。但
 
 1. 安装vscode插件"CMake Tools"、"CMake Language Support"
 
-2. 打开"Developer Command Prompt for VS 2019"，进入my_ds目录，启动vscode并新建项目my_ds
+2. 打开"Developer Command Prompt for VS 2019"，进入my_ds目录，启动vscode并新建项目my_ds  
     __注__: 必须每次在此窗口通过如下命令启动vscode，否则msvs的编译可能失败（直接启动vscode，会造成一堆环境变量未设置）。
 
     ```shell
@@ -46,4 +46,4 @@ __注__: visual studio 2019中含了cmake工具，所以无需单独安装。但
 4. vscode左侧栏会出现CMake工具按钮，点击后，顶部有“配置所有项目”（即执行cmake）、“生成所有项目”（即cmake + build）两个按钮可执行。
 
 5. 编译成功后，可按底部"run CTest"运行测试用例  
-    __注__: 有时"配置"、"生成"、"CTest" 可能反应不正常或出错，多按几次就能通过。
+    __注__: 有时"配置"、"生成"、"CTest" 可能反应不正常或出错，多按几次就能通过。  
