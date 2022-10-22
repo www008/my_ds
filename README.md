@@ -1,6 +1,6 @@
-# Cython编译C++样例(windows平台)
+# Cython编译C++样例(CMake版)
 
-通过Cython，编译C++程序为python模块，支持python调用样例
+windows平台下，通过Cython编译C++程序为python模块，支持python调用样例
 
 ## 特性
 
@@ -43,5 +43,5 @@ __注__: visual studio 2019中含了cmake工具，所以无需单独安装。但
 
 4. vscode左侧栏会出现CMake工具按钮，点击后，顶部有“配置所有项目”（即执行cmake）、“生成所有项目”（即cmake + build）两个按钮可执行。
 
-5. 编译成功后，可按底部"run CTest"运行测试用例
+5. 编译成功后，可按底部"run CTest"运行测试用例  
     __注__: 有时"配置"、"生成"、"CTest" 可能反应不正常或出错，多按几次就能通过。
